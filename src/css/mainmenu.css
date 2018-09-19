@@ -1,0 +1,33 @@
+#mainmenu {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    margin-bottom: 1%;
+    background-color: white;
+    padding-top: 40px;
+    margin-bottom: 2px;
+}
+
+#mainmenu li {
+    display: inline;
+    font-size: 1.5em;
+    margin: 2%;
+    padding: 2%;
+}
+
+#mainmenu a:link, #mainmenu a:visited, #mainmenu a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+#mainmenu a:hover {
+    color: rgb(114, 98, 98);
+}
+
+.active {
+    background-color: rgba(133, 133, 133, 0.37);
+    padding-top: 0.8%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

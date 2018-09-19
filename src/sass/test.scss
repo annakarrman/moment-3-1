@@ -1,0 +1,12 @@
+$headerColor: white;
+
+/* header */
+h1 {
+    color: $headerColor;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(116, 116, 116);
+    width: 100%;
+}
